@@ -33,7 +33,7 @@ Steps Involved:
 [My version of the code found Below](https://github.com/BenjaminBurton/MicrosoftAzureResume)
 
 ```js
-https://github.com/BenjaminBurton/MicrosoftAzureResume
+[https://github.com/BenjaminBurton/MicrosoftAzureResume](https://github.com/BenjaminBurton/AWS-VPC-Setup/blob/main/README.md)
 
 ```
 
