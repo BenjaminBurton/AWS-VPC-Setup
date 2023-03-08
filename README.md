@@ -21,7 +21,8 @@ Steps Involved:
 - ✅ Create subnets to link to the VPC
 - ✅ Create Internet Gateway after IG is created attach the VPC
 - ✅ Create Route Tables and attach to the VPC
-- ✅ Edit the route and apply the universal IP 0.0.0.0/0 and attach the Internet Gateway (IG)
+- ✅ Edit the route and apply the universal IP 0.0.0.0/0
+- ✅ Attach the Internet Gateway (IG)
 - ✅ Go to the Rout Tables and edit the subnet associations to the route tables and save the associations
 - ✅ Once the connections are made Go to the EC2 Dashboard and select Instances in the resources and Launch an Instance
 - ✅ Name the Instance and and choose an application i.e. Amazon Linux AWS. (Use Free Tier for AMI & Instance type)
