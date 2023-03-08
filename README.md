@@ -54,11 +54,11 @@ Steps Involved:
 
 ## AWS Account
 
-- ❌
+- ✅
 
 ## Database
 
-- ❌
+- ✅
 
 ## Infrastructure As Code (IaC)
 
