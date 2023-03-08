@@ -7,7 +7,7 @@ AWS Virtual Private Network
 
 :wave: :wave: :wave: :wave: :wave:
 
-#AWSPractitionerChallenge
+#AWS Certified Cloud Practitioner Foundational
 
 :star: :star: :star:
 
