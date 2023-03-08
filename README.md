@@ -30,7 +30,7 @@ Steps Involved:
 - [x] Figure how to ping from one server to another
 - [x] Write a Blog Post on Hashnode about the experience.
 
-[My version of the code found Below](https://github.com/BenjaminBurton/MicrosoftAzureResume)
+[My version of the code found Below]([https://github.com/BenjaminBurton/MicrosoftAzureResume](https://github.com/BenjaminBurton/AWS-VPC-Setup/blob/main/README.md))
 
 ```js
 [https://github.com/BenjaminBurton/MicrosoftAzureResume](https://github.com/BenjaminBurton/AWS-VPC-Setup/blob/main/README.md)
