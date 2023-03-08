@@ -24,9 +24,16 @@ Steps Involved:
 - ✅ Edit the route and apply the universal IP 0.0.0.0/0 and attach the Internet Gateway (IG)
 - ✅ Go to the Rout Tables and edit the subnet associations to the route tables and save the associations
 - ✅ Once the connections are made Go to the EC2 Dashboard and select Instances in the resources and Launch an Instance
-- ✅ Name the In stance and and choose an application i.e. Amazon Linux AWS. (Use Free Tier for AMI & Instance type)
-- ✅ Create a new key Pair for login and name the key pair
-- ✅ Select key pair RSA for ssh and .pem for Private key file format(Allow SSH traffic from anywhere for this lesson)
+- ✅ Name the Instance and and choose an application i.e. Amazon Linux AWS. (Use Free Tier for AMI & Instance type)
+- ✅ Create a new key Pair for login and name the key pair (you can use same key for multiple Instances)
+- ✅ Select key pair RSA for ssh and .pem for Private key file format (Allow SSH traffic from anywhere for this lesson)
+- ✅ In Network Settings select the correct VPC & the associated Subnet.
+- ✅ Under the Inbound security group rules the type should be ssh with protocol TCP with port range 22
+- ✅ To launch the instance now that it is connected, select the instance and connect
+- ✅ Under connect to Instance choose ssh
+- ✅ Open an SSH client, Locate your private key file. The key used is a .pem file
+- ✅ Run this command, if necessary, to ensure your key is not publicly viewable. chmod 400 + the .pem key file name
+- ✅ then Connect to your instance using its Private IP
 - [x] Figure how to ping from one server to another
 - [x] Write a Blog Post on Hashnode about the experience.
 
