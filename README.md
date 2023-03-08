@@ -3,7 +3,7 @@ AWS Virtual Private Network
 
 # Amazon AWS Cloud Practitioner 
 
-![AWS VPC](https://img.shields.io/badge/Resume-UnderConstruction-orange)
+![AWS VPC](https://img.shields.io/badge/AWS-UnderConstruction-orange)
 
 :wave: :wave: :wave: :wave: :wave:
 
