@@ -41,7 +41,7 @@ Steps Involved:
 [My version of the code found Below]([[https://github.com/BenjaminBurton/AWS-VPC-Setup/blob/main/README.md)])
 
 ```js
-[[https://github.com/BenjaminBurton/AWS-VPC-Setup]](https://github.com/BenjaminBurton/AWS-VPC-Setup/blob/main/README.md)
+[https://github.com/BenjaminBurton/AWS-VPC-Setup](https://github.com/BenjaminBurton/AWS-VPC-Setup/blob/main/README.md)
 
 ```
 
