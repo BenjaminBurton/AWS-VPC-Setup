@@ -1,7 +1,7 @@
 # AWS-VPC-Setup
-AWS Virtual Private Network
+AWS Virtual Private Network + Load Balancer
 
-# Amazon AWS Cloud Practitioner 
+# Amazon AWS Cloud Practitioner Certification Challenges 
 
 ![AWS VPC](https://img.shields.io/badge/AWS-UnderConstruction-orange)
 
@@ -17,24 +17,41 @@ My Personal AWS VPC from scratch connecting subnets, creating Internet Gateway, 
 
 Steps Involved:
 
-- ✅ Create VPC in AWS Console
-- ✅ Create subnets to link to the VPC
-- ✅ Create Internet Gateway after IG is created attach the VPC
-- ✅ Create Route Tables and attach to the VPC
-- ✅ Edit the route and apply the universal IP 0.0.0.0/0
-- ✅ Attach the Internet Gateway (IG)
-- ✅ Go to the Route Tables and edit the subnet associations to the route tables and save the associations
-- ✅ Once the connections are made Go to the EC2 Dashboard and select Instances in the resources and Launch an Instance
-- ✅ Name the Instance and and choose an application i.e. Amazon Linux AWS. (Use Free Tier for AMI & Instance type)
-- ✅ Create a new key Pair for login and name the key pair (you can use same key for multiple Instances)
-- ✅ Select key pair RSA for ssh and .pem for Private key file format (Allow SSH traffic from anywhere for this lesson)
-- ✅ In Network Settings select the correct VPC & the associated Subnet.
-- ✅ Under the Inbound security group rules the type should be ssh with protocol TCP with port range 22
-- ✅ To launch the instance now that it is connected, select the instance and connect
-- ✅ Under connect to Instance choose ssh
-- ✅ Open an SSH client, Locate your private key file. The key used is a .pem file
-- ✅ Run this command, if necessary, to ensure your key is not publicly viewable. chmod 400 + the .pem key file name
-- ✅ then Connect to your instance using its Private IP
+- ✅ Create 1 VPC in AWS Console
+- ✅ Create 2 subnets then attatch them to the VPC created
+- ✅ Give the subnets IPv4 CIDRs 
+- ✅ Create internet gateway so we have internet
+- ✅ Attatch internet gateway to VPC 
+- ✅ Go to VPC's main route table and edit the routes
+- ✅ give the destination the universal IP address and target the internet Gateway and save changes
+- ✅ go to subnet associations and add the 2 subnets created and save associations
+- ✅ now go to the EC2 (Virtual servers in the cloud) dashboard and create an Instance (launch instance)
+- ✅ name the server and choose a distrubution
+- ✅ create new key pair (if one isnt already available) if so select it
+- ✅ under networking settings edit and select the VPC and subnet created
+- ✅ enable auto-assign public IP address
+- ✅ ssh protocol should be TCP port 22
+- ✅ launch instance and repeat for 2nd instance
+- ✅ for windows it will be RDP instead of ssh and the port will be 3389 
+- ✅ go to the instance you want to run and select connect
+- ✅ for the ssh client open a terminal on Apple (different for windows will document later)
+- ✅ cd into the folder the key pair is in and run the commands
+- ✅ run chmod 400 + name of key pair (to ensure key is not publicly visible)
+- ✅ run ssh -i "key pair name" ec2-user@ + IP given
+- ✅ select yes on the dialog prompt
+- ✅ you should see Amazon Linux 2 AMI logo if done correctly
+- ✅ run logout to close connection and get back to your shell
+- ✅ for windows server select instance and go to RDP client 
+- ✅ select password and upload private key to decrypt
+- ✅ decrypt password 
+- ✅ copy password
+- ✅ download remote desktop file
+- ✅ open download remote desktop file
+- ✅ paste password to launch instance
+- ✅ select yes to continue on pop up dialouge box
+- ✅ you should see your instance live
+
+
 - [x] Figure how to ping from one server to another
 - [x] Write a Blog Post on Hashnode about the experience.
 
@@ -45,27 +62,24 @@ https://github.com/BenjaminBurton/AWS-VPC-Setup/blob/main/README.md
 
 ```
 
-## AWS Account
+## Load Balancer / Jump Server Setup
 
-- ✅ Create AWS Account
+- ✅ create load balancer using classic load balancer
+- ✅ name load balancer
+- ✅ attatch VPC inside create LB inside dropdown
+- ✅ add the subnets by selecting the plus icons next to them under available subnets Actions
+- ✅ next assign security groups
+- ✅ create a new security group (type http)
+- ✅ next configure security settings
+- ✅ next configure health check (ignore warning on page)
+- ✅ next add EC2 instance
+- ✅ select both instances created
+- ✅ next add tags
+- ✅ review and create
+- ✅ create
 
-## GitHub Repo
-
-- ✅ Create Github Repo An connect to laptop (git init)
-
-## AWS Account
-
-- ✅
-
-## Database
-
-- ✅
 
 ## Infrastructure As Code (IaC)
-
-- ❌
-
-## Source Control
 
 - ❌
 
@@ -76,3 +90,5 @@ https://github.com/BenjaminBurton/AWS-VPC-Setup/blob/main/README.md
 ## Issues Encountered
 
 - ❌ Actively Finding resolution to Issue with pinging back and forth
+
+- ❌ Under Construction
